@@ -47,20 +47,10 @@ function App() {
 
 
   return (
-    <div>
-    <h1>Vending Machine App</h1>
-    {web3 ? (
-      <div>
-        <p>Connected: {accounts[0]}</p>
-        <p>Vending Machine Balance: {balance}</p>
-        
-      </div>
-    ) : (
-      <button onClick={connectWallet}>Connect Wallet</button>
-    )}
-  </div>
-   
-  )
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+  );
 }
 
 export default App
